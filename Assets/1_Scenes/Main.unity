@@ -394,6 +394,10 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 926268589}
+    - target: {fileID: 2174098591200592311, guid: e73f4334841448648803eb5ad7763a40, type: 3}
+      propertyPath: keyCode
+      value: 97
+      objectReference: {fileID: 0}
     - target: {fileID: 2657205879881149327, guid: e73f4334841448648803eb5ad7763a40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -462,6 +466,10 @@ PrefabInstance:
       propertyPath: anim
       value: 
       objectReference: {fileID: 1568844315}
+    - target: {fileID: 2174098591200592311, guid: e73f4334841448648803eb5ad7763a40, type: 3}
+      propertyPath: keyCode
+      value: 115
+      objectReference: {fileID: 0}
     - target: {fileID: 2657205879881149327, guid: e73f4334841448648803eb5ad7763a40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.52
