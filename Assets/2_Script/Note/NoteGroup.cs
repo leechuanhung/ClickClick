@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,11 +29,10 @@ public class NoteGroup : MonoBehaviour
         if (noteList.Count > 0)
         {
             Note delNote = noteList[0];
-            delNote.Destroy();
+            delNote.DeleteNote();
             noteList.RemoveAt(0);
         }
         
-
         for (int i = 0; i < noteList.Count; i++)
         {
             noteList[i].transform.localPosition = Vector3.up * i * noteGap;
@@ -59,7 +59,6 @@ public class NoteGroup : MonoBehaviour
         GameObject noteGameObj = Instantiate(notePrefab);
         noteGameObj.transform.SetParent(noteSpawn.transform);
         noteGameObj.transform.localPosition = Vector3.up * this.noteList.Count * noteGap;
-        Debug.Log("noteObj.transform.position : " + noteGameObj.transform.position);
         Note note = noteGameObj.GetComponent<Note>();
         note.SetSprite(isApple);
 
