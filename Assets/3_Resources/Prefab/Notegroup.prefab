@@ -58,7 +58,7 @@ Transform:
   m_GameObject: {fileID: 4338348789433059785}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1, y: 2.8, z: -10}
+  m_LocalPosition: {x: 0.1, y: 5.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -87,6 +87,7 @@ MonoBehaviour:
   btnSpriteRender: {fileID: 9007072101160761601}
   normalBtnSprite: {fileID: 21300000, guid: d7b61edc0b017174095824530172ad1f, type: 3}
   selectBtnSprite: {fileID: 21300000, guid: 4fce3950ae84d9c46a154454c898bf17, type: 3}
+  keyCodeTmp: {fileID: 3228534425931337149}
   anim: {fileID: 2749099274016423854}
 --- !u!111 &2749099274016423854
 Animation:

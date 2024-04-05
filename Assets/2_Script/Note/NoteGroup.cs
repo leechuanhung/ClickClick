@@ -1,5 +1,5 @@
-using JetBrains.Annotations;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class NoteGroup : MonoBehaviour
@@ -12,8 +12,9 @@ public class NoteGroup : MonoBehaviour
     [SerializeField] private SpriteRenderer btnSpriteRender;
     [SerializeField] private Sprite normalBtnSprite;
     [SerializeField] private Sprite selectBtnSprite;
+    [SerializeField] private TextMeshPro keyCodeTmp;
     [SerializeField] private Animation anim;
-    [SerializeField] private KeyCode keyCode;
+    private KeyCode keyCode;
     public KeyCode KeyCode
     {
         get
@@ -32,7 +33,7 @@ public class NoteGroup : MonoBehaviour
             delNote.DeleteNote();
             noteList.RemoveAt(0);
         }
-        
+
         for (int i = 0; i < noteList.Count; i++)
         {
             noteList[i].transform.localPosition = Vector3.up * i * noteGap;
@@ -45,15 +46,19 @@ public class NoteGroup : MonoBehaviour
         btnSpriteRender.sprite = selectBtnSprite;
     }
 
-    void Start()
+    public void Create(KeyCode keyCode)
     {
+        this.keyCode = keyCode;
+        keyCodeTmp.text = keyCode.ToString();
+
         for (int i = 0; i < noteMaxNum; i++)
         {
             SpawnNote(true);
         }
 
+        InputManager.Instance.AddKeyCode(keyCode);
     }
-     
+
     private void SpawnNote(bool isApple)
     {
         GameObject noteGameObj = Instantiate(notePrefab);
