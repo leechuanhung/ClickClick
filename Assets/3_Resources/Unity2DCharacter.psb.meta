@@ -1,0 +1,659 @@
+fileFormatVersion: 2
+guid: 26513c58bc7ff524bbe7695369507f66
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Bandit Head
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 269
+      width: 88
+      height: 126
+    spriteID: 44418c014c06bcd4db401a83726083d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 269}
+    spritePosition: {x: 217, y: 173}
+  - name: Bandit Right Arm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 233
+      y: 249
+      width: 69
+      height: 129
+    spriteID: 4af2e4d5375880d4eb865abd22bebfe4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 233, y: 249}
+    spritePosition: {x: 152, y: 122}
+  - name: Bandit Torso
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 4
+      width: 96
+      height: 125
+    spriteID: 4de2753648b0d374da6a6bc75de87d5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 4}
+    spritePosition: {x: 197, y: 122}
+  - name: Bandit Left Leg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 403
+      width: 34
+      height: 45
+    spriteID: 44db6c6ec9016a5419205c1ee6cf2126
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 403}
+    spritePosition: {x: 245, y: 106}
+  - name: Bandit Right Leg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 456
+      width: 33
+      height: 44
+    spriteID: f63f1378dfabcdb4e92e732cf14d8824
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 456}
+    spritePosition: {x: 217, y: 107}
+  - name: Bandit Left Fingers
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 440
+      width: 36
+      height: 43
+    spriteID: 9f5e86380931ce14c86ef80d1841dd2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 440}
+    spritePosition: {x: 309, y: 122}
+  - name: Bandit Weapon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 298
+      width: 105
+      height: 134
+    spriteID: 5fbc0e7df942ff745abad8e9d433bd1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 298}
+    spritePosition: {x: 297, y: 113}
+  - name: Bandit Left Arm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 233
+      y: 131
+      width: 88
+      height: 110
+    spriteID: 112a65f4f27cbe5488dd958a2e406f09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 233, y: 131}
+    spritePosition: {x: 257, y: 122}
+  - name: Ork Head
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 329
+      y: 4
+      width: 101
+      height: 99
+    spriteID: c8824e98e8dc356479c8dc59cf56c379
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 329, y: 4}
+    spritePosition: {x: 234, y: 179}
+  - name: Ork Right Arm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 233
+      y: 4
+      width: 88
+      height: 119
+    spriteID: 67bd177c738f0cd4384c19529fd5460f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 233, y: 4}
+    spritePosition: {x: 147, y: 130}
+  - name: Ork Torso
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 155
+      width: 106
+      height: 135
+    spriteID: 0089dbc8cdcaed247aac3ac4ced4b740
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 155}
+    spritePosition: {x: 201, y: 124}
+  - name: Ork Right Leg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 171
+      y: 448
+      width: 37
+      height: 36
+    spriteID: f645ad2c2ceed224f970af03a033cb47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 171, y: 448}
+    spritePosition: {x: 215, y: 106}
+  - name: Ork Left Leg
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 171
+      y: 403
+      width: 38
+      height: 37
+    spriteID: 38828ecad3c57b44892dc7e2f722521f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 171, y: 403}
+    spritePosition: {x: 239, y: 111}
+  - name: Ork Left Fingers
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 440
+      width: 36
+      height: 43
+    spriteID: ee638e6f2e5654c489af8ec2ce10c8d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 440}
+    spritePosition: {x: 319, y: 134}
+  - name: Ork Weapon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 117
+      height: 143
+    spriteID: 19bc6670838207c4198fdb4f593fd5ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 313, y: 126}
+  - name: Ork Left Arm
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 137
+      width: 96
+      height: 124
+    spriteID: d2e7c3f29bbc001408016c1f4d6da675
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 137}
+    spritePosition: {x: 259, y: 134}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Bandit
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 1ec8a5101b6d23640abbeedae7f41149
+    layerID: 19
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Bandit Head
+    spriteName: Bandit Head
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 44418c014c06bcd4db401a83726083d3
+    layerID: 14
+    mosaicPosition: {x: 129, y: 269}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bandit Right Arm
+    spriteName: Bandit Right Arm
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 4af2e4d5375880d4eb865abd22bebfe4
+    layerID: 17
+    mosaicPosition: {x: 233, y: 249}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bandit Torso
+    spriteName: Bandit Torso
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 4de2753648b0d374da6a6bc75de87d5f
+    layerID: 5
+    mosaicPosition: {x: 129, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bandit Left Leg
+    spriteName: Bandit Left Leg
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 44db6c6ec9016a5419205c1ee6cf2126
+    layerID: 16
+    mosaicPosition: {x: 129, y: 403}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bandit Right Leg
+    spriteName: Bandit Right Leg
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f63f1378dfabcdb4e92e732cf14d8824
+    layerID: 10
+    mosaicPosition: {x: 129, y: 456}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bandit Left Fingers
+    spriteName: Bandit Left Fingers
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 9f5e86380931ce14c86ef80d1841dd2c
+    layerID: 8
+    mosaicPosition: {x: 4, y: 440}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bandit Weapon
+    spriteName: Bandit Weapon
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 5fbc0e7df942ff745abad8e9d433bd1d
+    layerID: 3
+    mosaicPosition: {x: 4, y: 298}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Bandit Left Arm
+    spriteName: Bandit Left Arm
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 112a65f4f27cbe5488dd958a2e406f09
+    layerID: 12
+    mosaicPosition: {x: 233, y: 131}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ork
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: f016f800345d53a4e90edaedaf6bbecf
+    layerID: 21
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Ork Head
+    spriteName: Ork Head
+    isGroup: 0
+    parentIndex: 9
+    spriteID: c8824e98e8dc356479c8dc59cf56c379
+    layerID: 18
+    mosaicPosition: {x: 329, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ork Right Arm
+    spriteName: Ork Right Arm
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 67bd177c738f0cd4384c19529fd5460f
+    layerID: 13
+    mosaicPosition: {x: 233, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ork Torso
+    spriteName: Ork Torso
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 0089dbc8cdcaed247aac3ac4ced4b740
+    layerID: 6
+    mosaicPosition: {x: 4, y: 155}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ork Right Leg
+    spriteName: Ork Right Leg
+    isGroup: 0
+    parentIndex: 9
+    spriteID: f645ad2c2ceed224f970af03a033cb47
+    layerID: 4
+    mosaicPosition: {x: 171, y: 448}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ork Left Leg
+    spriteName: Ork Left Leg
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 38828ecad3c57b44892dc7e2f722521f
+    layerID: 11
+    mosaicPosition: {x: 171, y: 403}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ork Left Fingers
+    spriteName: Ork Left Fingers
+    isGroup: 0
+    parentIndex: 9
+    spriteID: ee638e6f2e5654c489af8ec2ce10c8d5
+    layerID: 9
+    mosaicPosition: {x: 48, y: 440}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ork Weapon
+    spriteName: Ork Weapon
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 19bc6670838207c4198fdb4f593fd5ff
+    layerID: 7
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Ork Left Arm
+    spriteName: Ork Left Arm
+    isGroup: 0
+    parentIndex: 9
+    spriteID: d2e7c3f29bbc001408016c1f4d6da675
+    layerID: 15
+    mosaicPosition: {x: 129, y: 137}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
