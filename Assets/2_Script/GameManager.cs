@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
     {
         float currentTime = 0f;
 
-        while (currentTime < maxScore)
+        while (currentTime < maxTime)
         {
             currentTime += Time.deltaTime;
             UIManager.Instance.OnTimerChange(currentTime, maxTime);
@@ -87,6 +87,10 @@ public class GameManager : MonoBehaviour
         UIManager.Instance.OnScoreChange(score, maxScore);
     }
 
+    private void OngameOverObj()
+    {
+        SceneManager.LoadScene("GameOverScene");
+    }
 public void Restart()
     {
         Debug.Log("Game Restart!.........");
