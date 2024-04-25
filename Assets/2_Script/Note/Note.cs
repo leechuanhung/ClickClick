@@ -5,9 +5,9 @@ public class Note : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRender;
     [SerializeField] private Sprite appleSprie;
     [SerializeField] private Sprite blueberrySprite;
-    
 
     private bool isApple;
+    private bool isBlueberry;
 
     internal void Destroy()
     {
@@ -16,6 +16,14 @@ public class Note : MonoBehaviour
 
     public void DeleteNote()
     {
+        if (this.isApple)
+        {
+            SoundManager.Instance.Sound();
+        }
+        if (this.isBlueberry)
+        {
+            SoundManager.Instance.Sound();
+        }
         GameManager.Instance.CalculateScore(isApple);
         Destroy();
     }
@@ -28,7 +36,6 @@ public class Note : MonoBehaviour
 
     void Start()
     {
-
     }
 
 

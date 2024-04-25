@@ -48,7 +48,7 @@ MonoBehaviour:
   spriteRender: {fileID: 623392642765907139}
   appleSprie: {fileID: 21300000, guid: ae515d1e08808274fb08d013bdfbd57e, type: 3}
   blueberrySprite: {fileID: 21300000, guid: 9fd56ef0de9d3d8459fa1bdef82d3bae, type: 3}
-  redberrySprite: {fileID: 0}
+  audioSource: {fileID: 0}
 --- !u!1 &7284960846417150730
 GameObject:
   m_ObjectHideFlags: 0

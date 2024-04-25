@@ -8,8 +8,9 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int maxScore = 100;
     [SerializeField] private int noteGroupCreateScore = 10;
-    [SerializeField] private GameObject gameClearObj;
-    [SerializeField] private GameObject gameOverObj;
+    private bool isGameClear = false;
+    private bool isGameOver = false;
+
     private int score;
     private int nextNoteGroupUnlockCnt;
 
@@ -19,7 +20,7 @@ public class GameManager : MonoBehaviour
     {
         get
         {
-            if (gameClearObj.activeSelf || gameOverObj.activeSelf)
+            if (isGameClear || isGameOver)
                 return true;
             else
                 return false;
@@ -36,9 +37,6 @@ public class GameManager : MonoBehaviour
     {
         UIManager.Instance.OnScoreChange(score, maxScore);
         NoteManager.Instance.Create();
-
-        gameClearObj.SetActive(false);
-        gameOverObj.SetActive(false);
 
         StartCoroutine(TimerCouroutine());
     }
@@ -59,7 +57,15 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        gameOverObj.SetActive(true);
+        isGameOver = true;
+        {
+            if (isGameOver)
+            {
+                SceneManager.LoadScene("GameOverScene");
+            }
+
+        }
+
     }
 
     internal void CalculateScore(bool isApple)
@@ -69,17 +75,23 @@ public class GameManager : MonoBehaviour
             score++;
             nextNoteGroupUnlockCnt++;
 
-            if(noteGroupCreateScore <= nextNoteGroupUnlockCnt)
+            if (noteGroupCreateScore <= nextNoteGroupUnlockCnt)
             {
                 nextNoteGroupUnlockCnt = 0;
                 NoteManager.Instance.CreateNoteGroup();
 
             }
-            if(maxScore <= score)
+            if (maxScore <= score)
             {
-                gameClearObj.SetActive(true);
+                isGameClear = true;
+                {
+                    if (isGameClear)
+                    {
+                        SceneManager.LoadScene("GameClearScene");
+                    }
+                }
             }
-        } 
+        }
         else
         {
             score--;
@@ -87,11 +99,7 @@ public class GameManager : MonoBehaviour
         UIManager.Instance.OnScoreChange(score, maxScore);
     }
 
-    private void OngameOverObj()
-    {
-        SceneManager.LoadScene("GameOverScene");
-    }
-public void Restart()
+    public void Restart()
     {
         Debug.Log("Game Restart!.........");
         SceneManager.LoadScene(0);

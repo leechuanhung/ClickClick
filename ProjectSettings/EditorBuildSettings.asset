@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/1_Scenes/GameStartScene.unity
     guid: 953e5311123094d4b8fb1e8b701828ef
+  - enabled: 1
+    path: Assets/1_Scenes/GameOverScene.unity
+    guid: 707d8eca3f5bb0c4c9890240f838e1fd
+  - enabled: 1
+    path: Assets/1_Scenes/GameClearScene.unity
+    guid: 7877cf94d19f7084a91a879c5ce6a0ec
   m_configObjects: {}
