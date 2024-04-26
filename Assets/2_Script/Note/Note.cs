@@ -6,8 +6,8 @@ public class Note : MonoBehaviour
     [SerializeField] private Sprite appleSprie;
     [SerializeField] private Sprite blueberrySprite;
 
-    private bool isApple;
-    private bool isBlueberry;
+    public bool isApple;
+    public bool isBlueberry;
 
     internal void Destroy()
     {
@@ -20,7 +20,7 @@ public class Note : MonoBehaviour
         {
             SoundManager.Instance.Sound();
         }
-        if (this.isBlueberry)
+        else
         {
             SoundManager.Instance.Sound();
         }
@@ -36,6 +36,7 @@ public class Note : MonoBehaviour
 
     void Start()
     {
+
     }
 
 

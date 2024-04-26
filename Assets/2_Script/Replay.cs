@@ -10,6 +10,11 @@ public class Replay : MonoBehaviour
     {
         SceneManager.LoadScene("Main");
     }
+
+    public void GameExit()
+    {
+        Application.Quit();
+    }
     void Start()
     {
         
