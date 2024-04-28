@@ -29,8 +29,17 @@ public class SoundManager : MonoBehaviour
     }
 
    
-    public void Sound()
+    public void Sound(bool isApple)
     {
+        if (isApple)
+        {
         audioSources[0].Play();
+
+        }
+        else
+        {
+            audioSources[1].Play();
+        }
+
     }
 }
