@@ -8,6 +8,7 @@ public class BestTime : MonoBehaviour
     {
         public float currentGameTime; // 메인 씬에서 기록한 현재 게임 시간
         public float bestTime; // 게임 클리어 씬에서 표시할 베스트 타임
+        
 
         private void Start()
         {
@@ -27,6 +28,7 @@ public class BestTime : MonoBehaviour
                 PlayerPrefs.Save();
             }
         }
+
     }
     // Start is called before the first frame update
     void Start()

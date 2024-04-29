@@ -15,6 +15,7 @@ public class NoteManager : MonoBehaviour
 
     public static NoteManager Instance;
     private List<NoteGroup> noteGroupList = new List<NoteGroup>();
+    AudioSource audioSource;
 
     private void Awake()
     {
@@ -36,6 +37,8 @@ public class NoteManager : MonoBehaviour
             return;
         KeyCode keycode = wholeKeycodeArr[noteGroupCount];
         CreateNoteGroup(keycode);
+        audioSource = GetComponent<AudioSource>();
+        audioSource.Play();
     }
 
     private void CreateNoteGroup(KeyCode keyCode)
