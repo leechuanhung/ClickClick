@@ -14,6 +14,7 @@ public class NoteGroup : MonoBehaviour
     [SerializeField] private Sprite selectBtnSprite;
     [SerializeField] private TextMeshPro keyCodeTmp;
     [SerializeField] private Animation anim;
+    AudioSource audioSource;
     private KeyCode keyCode;
     public KeyCode KeyCode
     {
