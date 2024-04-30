@@ -5,7 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Replay : MonoBehaviour
 {
-    
+
+    private void Start()
+    {
+        Debug.Log($"myTime" + GameManager.myTime);
+        Debug.Log($"minTime" + GameManager.minTime);
+
+    }
+
     public void ReplayGame()
     {
         SceneManager.LoadScene("Main");
@@ -15,14 +22,5 @@ public class Replay : MonoBehaviour
     {
         Application.Quit();
     }
-    void Start()
-    {
-        
-    }
-
    
-    void Update()
-    {
-        
-    }
 }

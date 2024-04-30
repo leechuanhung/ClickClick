@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     private int score;
     private int nextNoteGroupUnlockCnt;
 
+
     //메인 씬에서 기록한 현재 게임 시간
     public float currentGameTime;
 
@@ -21,15 +22,27 @@ public class GameManager : MonoBehaviour
     public float bestTime;
 
     [SerializeField] private float maxTime = 30f;
+    [HideInInspector] public static float myTime;
+    [HideInInspector] public static float minTime;
 
     public bool IsGameDone
     {
         get
         {
             if (isGameClear || isGameOver)
+            {
+                float minTime = PlayerPrefs.GetFloat("minTime", 1000f);
+                if (minTime > myTime)
+                {
+                    minTime = myTime;
+                }
+                SceneManager.LoadScene("GameOverSecene");
                 return true;
+            }
             else
+            {
                 return false;
+            }
         }
     }
 
@@ -37,6 +50,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        minTime = PlayerPrefs.GetFloat("minTime");
     }
 
     private void Start()
@@ -45,7 +59,7 @@ public class GameManager : MonoBehaviour
         NoteManager.Instance.Create();
 
         StartCoroutine(TimerCouroutine());
-        
+
         //게임 클리어 씬으로 넘어왔을 때 베스트 타임을 로드한다.
         bestTime = PlayerPrefs.GetFloat("BestTime", Mathf.Infinity);
     }
@@ -57,6 +71,7 @@ public class GameManager : MonoBehaviour
         while (currentTime < maxTime)
         {
             currentTime += Time.deltaTime;
+            myTime = currentTime;
             UIManager.Instance.OnTimerChange(currentTime, maxTime);
             yield return null;
 
@@ -118,6 +133,7 @@ public class GameManager : MonoBehaviour
             //갱신된 베스트 타임을 저장합니다.
             PlayerPrefs.SetFloat("BestTime", bestTime);
             PlayerPrefs.Save();
+            Debug.Log(PlayerPrefs.GetFloat("BestTime"));
         }
     }
     public void Restart()
