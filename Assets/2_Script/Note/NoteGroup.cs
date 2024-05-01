@@ -75,4 +75,6 @@ public class NoteGroup : MonoBehaviour
     {
         btnSpriteRender.sprite = normalBtnSprite;
     }
+
+    
 }

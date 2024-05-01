@@ -36,8 +36,8 @@ public class GameManager : MonoBehaviour
                 {
                     minTime = myTime;
                 }
-                SceneManager.LoadScene("GameOverSecene");
                 return true;
+                SceneManager.LoadScene("GameOverScene");
             }
             else
             {

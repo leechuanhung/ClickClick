@@ -89,6 +89,8 @@ MonoBehaviour:
   selectBtnSprite: {fileID: 21300000, guid: 4fce3950ae84d9c46a154454c898bf17, type: 3}
   keyCodeTmp: {fileID: 3228534425931337149}
   anim: {fileID: 2749099274016423854}
+  spawnAnim: {fileID: 7400000, guid: a45ba5a27a47e9f489efed5631c1c50a, type: 2}
+  btnAnim: {fileID: 7400000, guid: 44c89ddfb3c5220469a6f40e615a274e, type: 2}
 --- !u!111 &2749099274016423854
 Animation:
   m_ObjectHideFlags: 0
