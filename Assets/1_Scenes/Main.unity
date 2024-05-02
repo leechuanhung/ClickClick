@@ -784,7 +784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxScore: 50
-  noteGroupCreateScore: 2
+  noteGroupCreateScore: 3
   currentGameTime: 0
   bestTime: 0
   maxTime: 30
