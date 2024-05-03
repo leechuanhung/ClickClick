@@ -37,10 +37,10 @@ public class GameManager : MonoBehaviour
                     minTime = myTime;
                 }
                 return true;
-                SceneManager.LoadScene("GameOverScene");
             }
             else
             {
+                
                 return false;
             }
         }
